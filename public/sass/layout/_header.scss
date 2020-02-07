@@ -1,0 +1,58 @@
+.header{
+	border-bottom: 1px solid #bebebe;
+	background: $primary;
+	padding-top: 5px;
+	color: #fff;
+	.row{
+		margin-bottom: 0; 
+	}	
+	.todaydate{
+		color: #fff;
+		font-size: 14px;
+		text-align: center;
+		@media #{$md}{
+			text-align: left;
+		}
+	}
+	.sociallink{
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+	.lang{
+		text-align: center;
+		@media #{$md}{
+			text-align: right;
+		}
+		a{
+			color: #fff;
+			margin: 0 10px;
+			@media #{$md}{
+				margin: 0 0 0 20px;
+			}
+			font-size: 14px;
+		}
+	}	
+}
+.brand{
+	margin-top: 10px;
+	display: block;
+}
+.headerads{
+	margin: 10px 0;
+	line-height: normal;
+	text-align: right;
+}
+
+.logo,
+.logo:hover{
+	font-family: 'Fahkwang', sans-serif;
+	font-size: 46px;
+	font-weight: 700;
+	color: $primary;
+	text-decoration: none;
+	margin-top: 20px;
+	span{
+		color: $s-dark;
+	}
+}

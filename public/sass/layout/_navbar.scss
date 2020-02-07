@@ -1,0 +1,36 @@
+nav.navbar {
+	padding: 0;
+	@media #{$md}{
+		background: $primary;		
+	}
+	background: lighten($primary, 30%);
+	.navbar-brand{
+		img{
+			width: 200px;
+		}
+		@media #{$md}{
+			margin-top: -160px;
+			left: 0;
+		}
+	}
+	ul.navbar-nav{
+		li.nav-item{
+			a.nav-link{
+				color: #fff;
+				font-size: 16px;
+				padding-left: 20px;
+				padding-right: 20px;
+				font-weight: 400;
+				&:hover,
+				&.active{
+					background: transparent;
+					color: $secondary;
+				}				
+			}
+		}			
+	}	
+}
+
+.dropdown-menu {
+	margin-top: 0;
+}
